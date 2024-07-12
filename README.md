@@ -1,18 +1,18 @@
 # UBER-DATA-ANALYSIS
 
-# Importing Libraries
+## Importing Libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# Importing Dataset
+## Importing Dataset
 dataset = pd.read_csv("UberDataset.csv")
 dataset.head()
 
 
-# To find the shape of the dataset
+## To find the shape of the dataset
 dataset.shape
 
 
